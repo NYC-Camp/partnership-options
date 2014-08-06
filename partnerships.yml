@@ -1,0 +1,67 @@
+---
+tier_partnership:
+  level-one-conference-partner:
+    title: Conference Partner
+    price: 1500000
+    stock: 1
+    view_order: 1
+  level-two-leading-partner:
+    title: Leading Partner
+    price: 500000
+    stock: 3
+    view_order: 2
+    program_benefit:
+      - program1
+    signage_benefit:
+      - sign-gen1
+    website_benefit:
+      - web1
+    partner_pavilion_benefit:
+      - pavilion1
+      - pavilion6
+    social_media_benefit:
+      - media1
+    keynote_benefit:
+      - key1
+    other_benefit:
+      - news1
+      - job1
+  level-three-core-partner:
+    title: Core Partner
+    price: 275000
+    stock: 5
+    view_order: 3
+  level-four-contributing-partner:
+    title: Contributing Partner
+    price: 160000
+    stock: 8
+    view_order: 4
+  level-five-supporting-partner:
+    title: Supporting Partner
+    price: 80000
+    stock: 7
+    view_order: 5
+  level-six-community-partner:
+    title: Community Partner
+    price: 25000
+    stock: 10
+    view_order: 6
+title_partnership:
+  media-digipub-summit-sprint-partner:
+    title: 'Media & Digital Publishing Summit + Sprint Partner'
+    price: 225000
+    stock: 2
+  drupal-8-core-partner:
+    title: Drupal 8 Core Partner
+    price: 225000
+    stock: 1
+  security-summit-sprint-partner:
+    title: Security Summit + Sprint Partner
+    price: 225000
+    stock: 1
+  non-profit-summit-sprint-apartner:
+    title: Non-Profit Summitaaaa + Sprint Partner
+    price: 225000
+    stock: 1
+partnership: [ ]
+individual_partnership: [ ]

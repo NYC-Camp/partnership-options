@@ -1,0 +1,106 @@
+---
+program_benefit:
+  program1:
+    benefit: X-Large Logo
+    details: X-Large logo on inside front cover and on Partners page of program
+  program2:
+    benefit: Large Logo
+    details: Large logo on inside back cover and on Partners page of program
+  program3:
+    benefit: Medium Logo
+    details: Partners page of program
+  program4:
+    benefit: Small Logo
+    details: Partners page of program
+signage_benefit:
+  sign-gen1:
+    benefit: X-Large Logo
+    details: Solo Partner Sign and on combined signage
+  sign-gen2:
+    benefit: Large Logo
+    details: Solo Partner Sign and on combined signage
+  sign-gen3:
+    benefit: Medium Logo
+    details: On combined signage
+  sign-gen4:
+    benefit: Small Logo
+    details: On combined signage
+  sign-room1:
+    benefit: Medium Logo
+    details: On combined signage
+  sign-room2:
+    benefit: Small Logo
+    details: On combined signage
+website_benefit:
+  web1:
+    benefit: X-Large logo on Partners Page and footer promo on all pages
+  web2:
+    benefit: Large logo on Partners Page and footer promo on landing pages
+  web3:
+    benefit: Medium logo on Partners Page and rotating promo block on all pages
+  web4:
+    benefit: Small logo on Partners Page and rotating promo block on all pages
+  web5:
+    benefit: Small logo on Partners Page and rotating promo block on some pages
+  web6:
+    benefit: Name on Individual Partners page
+    details: This is for individual sponsors (don't rank/separate individuals, ordered alphabetically)
+  web7:
+    benefit: Individual Partner Badge on user page
+    details: This is for individual sponsors
+partner_pavilion_benefit:
+  pavilion1:
+    benefit: Large Table
+  pavilion2:
+    benefit: Medium Table
+  pavilion3:
+    benefit: Shared Table
+  pavilion4:
+    benefit: Materials displayeed on shared table (materials only, no staff/people)
+  pavilion5:
+    benefit: Small Table
+  pavilion6:
+    benefit: Private Breakout Room
+    details: near Partner Pavilion
+summit_benefit:
+  summit1:
+    benefit: Small Table
+social_media_benefit:
+  media1:
+    benefit: Daily solo and combined thanks
+  media2:
+    benefit: Solo thanks (Saturday) and daily combined thanks
+  media3:
+    benefit: Daily combined thanks
+  media4:
+    benefit: Single combined thanks - Saturday
+keynote_benefit:
+  key1:
+    benefit: Solo verbal and on-screen thank you
+  key2:
+    benefit: Solo on-screen and combined verbal thank you
+  key3:
+    benefit: Combined verbal and combined on-screen thank you
+  key4:
+    benefit: Combined verbal thank you
+  key5:
+    benefit: Combined on-screen thank you
+swag_benefit:
+  swag1:
+    benefit: I <3 NYC Camp Sticker
+    details: For all individual sponsors
+  swag2:
+    benefit: Stress ball
+  swag3:
+    benefit: T-shirt
+  swag4:
+    benefit: Hat
+  swag5:
+    benefit: Hoodie
+  swag6:
+    benefit: Partner Patch
+other_benefit:
+  news1:
+    benefit: Recognition in Newsletters
+  job1:
+    benefit: Participation in Job Fair with Table
