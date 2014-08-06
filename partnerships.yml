@@ -59,8 +59,8 @@ title_partnership:
     title: Security Summit + Sprint Partner
     price: 225000
     stock: 1
-  non-profit-summit-sprint-apartner:
-    title: Non-Profit Summitaaaa + Sprint Partner
+  non-profit-summit-sprint-partner:
+    title: Non-Profit Summit + Sprint Partner
     price: 225000
     stock: 1
 partnership: [ ]
