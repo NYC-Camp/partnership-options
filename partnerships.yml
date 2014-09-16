@@ -1,67 +1,565 @@
 ---
 tier_partnership:
-  level-one-conference-partner:
-    title: Conference Partner
-    price: 1500000
-    stock: 1
-    view_order: 1
-  level-two-leading-partner:
-    title: Leading Partner
-    price: 500000
+  level-one-leading-partner:
+    title: Lead Partner
+    price: 800000
     stock: 3
-    view_order: 2
+    view_order: 1
     program_benefit:
       - program1
     signage_benefit:
       - sign-gen1
     website_benefit:
       - web1
+    keynote_benefit:
+      - key1
     partner_pavilion_benefit:
       - pavilion1
       - pavilion6
     social_media_benefit:
       - media1
-    keynote_benefit:
-      - key1
+      - media2
+      - media3
+      - media4
     other_benefit:
-      - news1
       - job1
-  level-three-core-partner:
+      - job2
+      - food1
+  level-two-core-partner:
     title: Core Partner
-    price: 275000
+    price: 500000
+    stock: 5
+    view_order: 2
+    program_benefit:
+      - program2
+    signage_benefit:
+      - sign-gen2
+    website_benefit:
+      - web2
+    keynote_benefit:
+      - key2
+    partner_pavilion_benefit:
+      - pavilion2
+    social_media_benefit:
+      - media4
+      - media5
+      - media6
+    other_benefit:
+      - job1
+      - job2
+      - food2
+  level-three-contributing-partner:
+    title: Contributing Partner
+    price: 250000
     stock: 5
     view_order: 3
-  level-four-contributing-partner:
-    title: Contributing Partner
-    price: 160000
-    stock: 8
-    view_order: 4
-  level-five-supporting-partner:
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key2
+    partner_pavilion_benefit:
+      - pavilion3
+    social_media_benefit:
+      - media7
+      - media8
+    other_benefit:
+      - job1
+      - job2
+  level-four-supporting-partner:
     title: Supporting Partner
-    price: 80000
-    stock: 7
-    view_order: 5
-  level-six-community-partner:
-    title: Community Partner
-    price: 25000
+    price: 100000
     stock: 10
-    view_order: 6
+    view_order: 4
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+    website_benefit:
+      - web4
+    keynote_benefit:
+      - key4
+    partner_pavilion_benefit:
+      - pavilion4
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+  level-five-community-partner:
+    title: Community Partner
+    price: 35000
+    stock: 10
+    view_order: 5
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+    website_benefit:
+      - web4
+    keynote_benefit:
+      - key4
+    partner_pavilion_benefit:
+      - pavilion4
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
 title_partnership:
   media-digipub-summit-sprint-partner:
-    title: 'Media & Digital Publishing Summit + Sprint Partner'
+    title: 'Media + Digital Publishing Summit + Sprint Partner'
+    price: 350000
+    stock: 2
+    view_order: 6
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+      - sprint1
+  non-profit-summit-sprint-partner:
+    title: Non-Profit + NGO Summit + Sprint Partner
+    price: 350000
+    stock: 2
+    view_order: 7
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+      - sprint1
+  drupal-8-core-partner:
+    title: Drupal 8 Core Summit + Sprint Partner
+    price: 200000
+    stock: 1
+    view_order: 8
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+      - sprint1
+  security-summit-sprint-partner:
+    title: Security + Privacy Summit + Sprint Partner
+    price: 200000
+    stock: 1
+    view_order: 9
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+      - sprint1
+  drupal-ng-partner:
+    title: DrupalNG Summit + Sprint Partner
+    price: 200000
+    stock: 1
+    view_order: 10
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+      - sprint1
+  higher-ed-partner:
+    title: Higher Education Summit Partner
+    price: 350000
+    stock: 2
+    view_order: 12
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+  devops-partner:
+    title: DevOps Summit Partner
     price: 225000
     stock: 2
-  drupal-8-core-partner:
-    title: Drupal 8 Core Partner
-    price: 225000
+    view_order: 13
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+  commerce-partner:
+    title: Commerce Summit Partner
+    price: 350000
+    stock: 2
+    view_order: 14
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+  apps-startups-partner:
+    title: Apps + Startup Summit Partner
+    price: 200000
     stock: 1
-  security-summit-sprint-partner:
-    title: Security Summit + Sprint Partner
-    price: 225000
+    view_order: 15
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+  training-partner:
+    title: Training Summit Partner
+    price: 200000
     stock: 1
-  non-profit-summit-sprint-partner:
-    title: Non-Profit Summit + Sprint Partner
-    price: 225000
+    view_order: 16
+    program_benefit:
+      - program3
+    signage_benefit:
+      - sign-gen3
+      - sign-room1
+    website_benefit:
+      - web3
+    keynote_benefit:
+      - key3
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media5
+      - media10
+    other_benefit:
+      - job1
+      - job2
+      - summit1
+  twig-partner:
+    title: Twig Training + Sprint Partner
+    price: 200000
     stock: 1
-partnership: [ ]
-individual_partnership: [ ]
+    view_order: 17
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media9
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - sprint1
+  multilingual-partner:
+    title: Multilingual Sprint Partner
+    price: 200000
+    stock: 1
+    view_order: 18
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    partner_pavilion_benefit:
+      - pavilion5
+    social_media_benefit:
+      - media9
+      - media11
+    other_benefit:
+      - job1
+      - job2
+      - sprint1
+partnership:
+  bof-partner:
+    title: BoFs Partner
+    price: 50000
+    stock: 2
+    view_order: 19
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+  community-tools-partner:
+    title: Community Tools Workshop Partner
+    price: 50000
+    stock: 1
+    view_order: 20
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+  coder-lounge-partner:
+    title: Chx Coder Lounge Partner
+    price: 50000
+    stock: 1
+    view_order: 21
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+  get-involve-core-partner:
+    title: Get Involved with Core Sprint Partner
+    price: 50000
+    stock: 1
+    view_order: 22
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+  daycare-partner:
+    title: Daycare Partner
+    price: 50000
+    stock: 1
+    view_order: 23
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+  evening-party-partner:
+    title: Evening Party Partner
+    price: 50000
+    stock: 1
+    view_order: 24
+    program_benefit:
+      - program4
+    signage_benefit:
+      - sign-gen4
+      - sign-room2
+    website_benefit:
+      - web5
+    keynote_benefit:
+      - key5
+    social_media_benefit:
+      - media9
+    other_benefit:
+      - job1
+      - job2
+individual_partnership:
+  level-one:
+    title: Level One
+    price: 2500
+    view_order: 25
+    swag_benefit:
+      - swag1
+      - swag2
+      - swag3
+    website_benefit:
+      - web6
+      - web7
+  level-two:
+    title: Level Two
+    price: 5000
+    view_order: 26
+    swag_benefit:
+      - swag1
+      - swag2
+      - swag3
+      - swag4
+      - swag5
+    website_benefit:
+      - web6
+      - web7
+  level-three:
+    title: Level Three
+    price: 10000
+    view_order: 27
+    swag_benefit:
+      - swag1
+      - swag2
+      - swag3
+      - swag4
+      - swag5
+    website_benefit:
+      - web6
+      - web7
+  level-four:
+    title: Level Four
+    price: 10000
+    view_order: 28
+    swag_benefit:
+      - swag1
+      - swag2
+      - swag3
+      - swag4
+      - swag5
+      - swag6
+    website_benefit:
+      - web6
+      - web7

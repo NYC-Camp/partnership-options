@@ -8,29 +8,29 @@ program_benefit:
     details: Large logo on inside back cover and on Partners page of program
   program3:
     benefit: Medium Logo
-    details: Partners page of program
+    details: Medium logo on the Partners page of program
   program4:
     benefit: Small Logo
-    details: Partners page of program
+    details: Small logo on the Partners page of program
 signage_benefit:
   sign-gen1:
     benefit: X-Large Logo
-    details: Solo Partner Sign and on combined signage
+    details: X-large logo on solo Partner Sign and on combined signage
   sign-gen2:
     benefit: Large Logo
-    details: Solo Partner Sign and on combined signage
+    details: Large logo on solo Partner Sign and on combined signage
   sign-gen3:
     benefit: Medium Logo
-    details: On combined signage
+    details: Medium logo on combined signage
   sign-gen4:
     benefit: Small Logo
-    details: On combined signage
+    details: Small logo on combined signage
   sign-room1:
     benefit: Medium Logo
-    details: On combined signage
+    details: Medium logo on outside room
   sign-room2:
     benefit: Small Logo
-    details: On combined signage
+    details: Small logo outside room
 website_benefit:
   web1:
     benefit: X-Large logo on Partners Page and footer promo on all pages
@@ -48,32 +48,6 @@ website_benefit:
   web7:
     benefit: Individual Partner Badge on user page
     details: This is for individual sponsors
-partner_pavilion_benefit:
-  pavilion1:
-    benefit: Large Table
-  pavilion2:
-    benefit: Medium Table
-  pavilion3:
-    benefit: Shared Table
-  pavilion4:
-    benefit: Materials displayeed on shared table (materials only, no staff/people)
-  pavilion5:
-    benefit: Small Table
-  pavilion6:
-    benefit: Private Breakout Room
-    details: near Partner Pavilion
-summit_benefit:
-  summit1:
-    benefit: Small Table
-social_media_benefit:
-  media1:
-    benefit: Daily solo and combined thanks
-  media2:
-    benefit: Solo thanks (Saturday) and daily combined thanks
-  media3:
-    benefit: Daily combined thanks
-  media4:
-    benefit: Single combined thanks - Saturday
 keynote_benefit:
   key1:
     benefit: Solo verbal and on-screen thank you
@@ -85,22 +59,68 @@ keynote_benefit:
     benefit: Combined verbal thank you
   key5:
     benefit: Combined on-screen thank you
+partner_pavilion_benefit:
+  pavilion1:
+    benefit: Large Table at Partner Pavilion (Session Day)
+  pavilion2:
+    benefit: Medium Table at Partner Pavilion (Session Day)
+  pavilion3:
+    benefit: Shared Table at Partner Pavilion (Session Day)
+  pavilion4:
+    benefit: Materials displayeed on shared table (materials only, no staff/people) at Partner Pavilion (Session Day)
+  pavilion5:
+    benefit: Small Table at Partner Pavilion (Session Day)
+  pavilion6:
+    benefit: Private Breakout Room (Session Day)
+    details: near Partner Pavilion
+social_media_benefit:
+  media1:
+    benefit: Daily solo and combined thanks on Twitter/Facebook
+  media2:
+    benefit: Promotion in attendee registration email
+  media3:
+    benefit: Large Logo in the footer of every communication email
+  media4:
+    benefit: Recognition in Newsletters to attendees
+  media5:
+    benefit: Solo thanks (Session Day) and daily combined thanks on Twitter/Facebook
+  media6:
+    benefit: Medium Logo in the footer of every communication email
+  media7:
+    benefit: Daily combined thanks on Twitter/Facebook
+  media8:
+    benefit: Small Logo in the footer of every communication email
+  media9:
+    benefit: Single combined thanks (Session Day) on Twitter/Facebook
+  media10:
+    benefit: Recognition in the emails for the summits to attendees
+  media11:
+    benefit: Recognition in the emails for the sprints to attendees
 swag_benefit:
   swag1:
     benefit: I <3 NYC Camp Sticker
     details: For all individual sponsors
   swag2:
-    benefit: Stress ball
-  swag3:
     benefit: T-shirt
+    details: For all individual sponsors
+  swag3:
+    benefit: NYC Camp Stress ball
   swag4:
-    benefit: Hat
+    benefit: Baseball Cap
   swag5:
     benefit: Hoodie
   swag6:
     benefit: Partner Patch
 other_benefit:
-  news1:
-    benefit: Recognition in Newsletters
   job1:
-    benefit: Participation in Job Fair with Table
+    benefit: Materials on table at job fair
+  job2:
+    benefit: Receives resumes for all job applicants
+  food1:
+    benefit: Recognition (via tweets, verbal, in program, and small signage) for breakfast and lunch food service
+  food2:
+    benefit: Recognition (via tweets, verbal, in program, and small signage) for coffee break food service
+  summit1:
+    benefit: Materials displayed on a table on Summit day
+  sprint1:
+    benefit: Materials displayed on a table on Sprint day
